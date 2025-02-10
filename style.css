@@ -1,42 +1,41 @@
 *{
     font-family: Outfit;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 body
 {
     background-color:hsl(212, 45%, 89%);
     margin: 0 auto;
+    padding: 0;
 }
 
 .cartao-qr-code
 {
     background-color: hsl(0, 0%, 100%);
-    width: 300px;
-    height: 500px;
-    margin: 100px auto 10px auto;
+    margin: 0 auto;
+    width: 25%;
     border-radius: 20px;
     padding: 20px;
+    padding-bottom: 3rem;
+    margin-top: 3em;
 }
 img
 {
     width: 100%;
     border-radius: 10px;
 }
-#tiutlo
+.tiutlo
 {
     text-align: center;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5em;
     color: hsl(218, 44%, 22%);
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
 
-#instrucao
+.instrucao
 {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.12em;
     color: hsl(220, 15%, 55%);
     text-align: center;
 }
